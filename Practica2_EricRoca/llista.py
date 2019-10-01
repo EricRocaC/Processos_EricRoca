@@ -1,3 +1,5 @@
 import random
-llista = [random.randrange(0,100), random.randrange(0,100), random.randrange(0,100), random.randrange(0,100), random.randrange(0,100), random.randrange(0,100), random.randrange(0,100), random.randrange(0,100), random.randrange(0,100), random.randrange(0,100)]
+llista = []
+for i in range(100):
+    llista.append(random.randrange(1,100))
 print(llista)
