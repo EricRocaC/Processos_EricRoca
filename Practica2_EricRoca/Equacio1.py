@@ -14,6 +14,7 @@ class EquacioPrimerGrau:
             r = (float(c)-float(b))/float(a)
         elif operador == "-":
             r = (float(c)+float(b))/float(a)
+            
         print(self.seq)
         print("x = "+str(r))
 
