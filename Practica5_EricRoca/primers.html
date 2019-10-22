@@ -9,7 +9,7 @@
 <td valign=bottom>&nbsp;<br>
 <font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>primers</strong></big></big></font></td
 ><td align=right valign=bottom
-><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/eroca/Escriptori/Processos/Practica4_EricRoca/primers.py">/home/eroca/Escriptori/Processos/Practica4_EricRoca/primers.py</a></font></td></tr></table>
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/eroca/Escriptori/Processos/Practica5_EricRoca/primers.py">/home/eroca/Escriptori/Processos/Practica5_EricRoca/primers.py</a></font></td></tr></table>
     <p><tt>#&nbsp;-*-&nbsp;coding:&nbsp;utf-8&nbsp;-*-</tt></p>
 <p>
 <table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
@@ -18,8 +18,9 @@
 <font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
     
 <tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
-<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="sys.html">sys</a><br>
-</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="doctest.html">doctest</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
 <table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
 <tr bgcolor="#ee77aa">
 <td colspan=3 valign=bottom>&nbsp;<br>
@@ -38,12 +39,30 @@
 <tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
 <td colspan=2><tt>Creem&nbsp;una&nbsp;llista&nbsp;per&nbsp;a&nbsp;afegir-hi&nbsp;els&nbsp;nombres&nbsp;primers&nbsp;començant&nbsp;per&nbsp;el&nbsp;dos<br>
 i&nbsp;sumant-li&nbsp;continuament&nbsp;fins&nbsp;a&nbsp;un&nbsp;màxim&nbsp;de&nbsp;números&nbsp;demanats&nbsp;per&nbsp;l'usuari.<br>
-&gt;&gt;&gt;&nbsp;<a href="#llista_primers">llista_primers</a>(5).l<br>&nbsp;</tt></td></tr>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;<a href="#llista_primers">llista_primers</a>(5).llista<br>
+[2,&nbsp;3,&nbsp;5,&nbsp;7,&nbsp;11]<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;<a href="#llista_primers">llista_primers</a>(10).llista<br>
+[2,&nbsp;3,&nbsp;5,&nbsp;7,&nbsp;11,&nbsp;13,&nbsp;17,&nbsp;19,&nbsp;23,&nbsp;29]<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;<a href="#llista_primers">llista_primers</a>(15).llista<br>
+[2,&nbsp;3,&nbsp;5,&nbsp;7,&nbsp;11,&nbsp;13,&nbsp;17,&nbsp;19,&nbsp;23,&nbsp;29,&nbsp;31,&nbsp;37,&nbsp;41,&nbsp;43,&nbsp;47]<br>&nbsp;</tt></td></tr>
 <tr><td>&nbsp;</td>
 <td width="100%">Methods defined here:<br>
 <dl><dt><a name="llista_primers-__init__"><strong>__init__</strong></a>(self, n)</dt><dd><tt>inicialitzem&nbsp;la&nbsp;variable&nbsp;n&nbsp;i&nbsp;creem&nbsp;la&nbsp;llista&nbsp;buida&nbsp;i&nbsp;el&nbsp;buscador.</tt></dd></dl>
 
-<dl><dt><a name="llista_primers-busca"><strong>busca</strong></a>(self)</dt></dl>
+<dl><dt><a name="llista_primers-busca"><strong>busca</strong></a>(self)</dt><dd><tt>Dins&nbsp;d'aquest&nbsp;apartat&nbsp;ens&nbsp;dedicarem&nbsp;a&nbsp;treballar&nbsp;amb&nbsp;els&nbsp;ifs.<br>
+&nbsp;<br>
+El&nbsp;primer&nbsp;if&nbsp;afegirà&nbsp;un&nbsp;2&nbsp;dins&nbsp;de&nbsp;la&nbsp;llista&nbsp;buida.<br>
+&nbsp;<br>
+El&nbsp;segón&nbsp;comprobarà&nbsp;si&nbsp;la&nbsp;llista&nbsp;és&nbsp;més&nbsp;petita&nbsp;que&nbsp;el&nbsp;número&nbsp;introduit&nbsp;per&nbsp;l'usuari&nbsp;i&nbsp;donarà&nbsp;pas&nbsp;al&nbsp;bucle.<br>
+&nbsp;<br>
+El&nbsp;while&nbsp;comprobarà&nbsp;si&nbsp;"trobat"&nbsp;és&nbsp;"false"&nbsp;(cas&nbsp;que&nbsp;es&nbsp;donará,&nbsp;com&nbsp;deiem&nbsp;abans,&nbsp;quan&nbsp;la&nbsp;llista&nbsp;sigui&nbsp;igual&nbsp;al&nbsp;número&nbsp;introduit).<br>
+&nbsp;<br>
+El&nbsp;for&nbsp;farà&nbsp;un&nbsp;"mod"&nbsp;comprobant&nbsp;que&nbsp;el&nbsp;residu&nbsp;entre&nbsp;el&nbsp;número&nbsp;que&nbsp;estem&nbsp;utilitzant&nbsp;i&nbsp;l'últim&nbsp;a&nbsp;la&nbsp;llista&nbsp;sigui&nbsp;0.<br>
+&nbsp;<br>
+Si&nbsp;ho&nbsp;es,&nbsp;l'afegirà&nbsp;a&nbsp;la&nbsp;llista.&nbsp;Un&nbsp;com&nbsp;acabada&nbsp;la&nbsp;llista,&nbsp;el&nbsp;programa&nbsp;sortirà&nbsp;del&nbsp;bucle&nbsp;i&nbsp;acabarà.</tt></dd></dl>
 
 </td></tr></table></td></tr></table>
 </body></html>
