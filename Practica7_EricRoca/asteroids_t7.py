@@ -225,15 +225,14 @@ def main():
     # main loop
     running = True
     time = 0
-    max = 0
 
     while running:
-        if time == 20 and max <= 31:
+        if time == 20 and len(world.sprites) <= 31:
             asteroid = Asteroid((random.randint(0,800),random.randint(0,800)))
             bullet = Bullet((400,300),400.0,300)
             world.sprites.add(asteroid)
             world.sprites.add(bullet)
-            max=max+1
+            len(world.sprites)
             time = 0
 
         events = pygame.event.get()
